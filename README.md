@@ -2,7 +2,7 @@
 
 # 🍕 Full Stack Pizza Ordering Web App
 
-This project is developed as part of my **Web Development Internship at Oasis Infobyte**.
+This project is developed as part of my Web Development Internship at Oasis Infobyte.
 
 ---
 
@@ -14,11 +14,11 @@ To build a full stack web application where users can customize and order pizzas
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Authentication:** JWT (JSON Web Token)  
-- **Payment Gateway:** Razorpay (Test Mode)
+- Frontend: React.js  
+- Backend: Node.js, Express.js  
+- Database: MongoDB  
+- Authentication: JWT (JSON Web Token)  
+- Payment Gateway: Razorpay (Test Mode)
 
 ---
 
@@ -89,6 +89,69 @@ To build a full stack web application where users can customize and order pizzas
 
 ### 1. Clone Repository
 
-```bash
-git clone https://github.com/adarsh4k/OIBSIP_WebDevelopment_Task1.git
-cd OIBSIP_WebDevelopment_Task1
+git clone https://github.com/adarsh4k/OIBSIP_WebDevelopment_Task1.git  
+cd OIBSIP_WebDevelopment_Task1  
+
+---
+
+### 2. Install Dependencies
+
+Backend:
+
+cd server  
+npm install  
+
+Frontend:
+
+cd client  
+npm install  
+
+---
+
+### 3. Setup Environment Variables
+
+Create a `.env` file inside server/ and add:
+
+MONGO_URI=your_mongodb_connection  
+JWT_SECRET=your_secret_key  
+RAZORPAY_KEY_ID=your_key  
+RAZORPAY_KEY_SECRET=your_secret  
+
+---
+
+### 4. Run Application
+
+Start Backend:
+
+cd server  
+npm start  
+
+Start Frontend:
+
+cd client  
+npm start  
+
+---
+
+## 📦 Outcome
+
+Successfully built a full stack web application with authentication, payment integration, admin panel, and real-time order tracking.
+
+---
+
+## 🔗 Links
+
+- GitHub Repository: https://github.com/adarsh4k/OIBSIP_WebDevelopment_Task1  
+
+
+---
+
+## 🙌 Acknowledgment
+
+Thanks to Oasis Infobyte for providing this internship opportunity.
+
+---
+
+## 📌 Author
+
+Adarsh
