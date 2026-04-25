@@ -1,1 +1,94 @@
 # OIBSIP_WebDevelopment_Task1
+
+# 🍕 Full Stack Pizza Ordering Web App
+
+This project is developed as part of my **Web Development Internship at Oasis Infobyte**.
+
+---
+
+## 📌 Objective
+
+To build a full stack web application where users can customize and order pizzas, and admins can manage orders, inventory, and track order status.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Authentication:** JWT (JSON Web Token)  
+- **Payment Gateway:** Razorpay (Test Mode)
+
+---
+
+## ✨ Features
+
+### 👤 User Features
+
+- User Registration & Login  
+- Email Verification System  
+- Forgot Password Functionality  
+- Build Custom Pizza  
+  - Choose Base  
+  - Select Sauce  
+  - Choose Cheese  
+  - Add Veggies  
+- Razorpay Payment Integration (Test Mode)  
+- View Order History  
+- Track Order Status (Real-time updates)
+
+---
+
+### 👨‍🍳 Admin Features
+
+- Admin Login  
+- View All Orders  
+- Update Order Status  
+  - Order Received  
+  - In Kitchen  
+  - Delivered  
+- Inventory Management System  
+- Low Stock Alerts  
+
+---
+
+## 🔄 Application Workflow
+
+1. User registers and verifies email  
+2. User logs into the system  
+3. Builds a custom pizza  
+4. Makes payment using Razorpay  
+5. Order is saved in database  
+6. Admin views and processes order  
+7. Admin updates order status  
+8. User can track order status in dashboard  
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](screenshots/login.png)
+
+### 📝 Register Page
+![Register](screenshots/register.png)
+
+### 🍕 Dashboard (Pizza Builder)
+![Dashboard](screenshots/dashboard.png)
+
+### 👨‍🍳 Admin Dashboard
+![Admin](screenshots/admin.png)
+
+### 📦 My Orders Page
+![Orders](screenshots/orders.png)
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/adarsh4k/OIBSIP_WebDevelopment_Task1.git
+cd OIBSIP_WebDevelopment_Task1
