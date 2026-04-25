@@ -69,19 +69,19 @@ To build a full stack web application where users can customize and order pizzas
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login](screenshots/login.png)
+![Login](./screenshots/login.png)
 
 ### 📝 Register Page
-![Register](screenshots/register.png)
+![Register](./screenshots/register.png)
 
 ### 🍕 Dashboard (Pizza Builder)
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ### 👨‍🍳 Admin Dashboard
-![Admin](screenshots/admin.png)
+![Admin](./screenshots/admin.png)
 
 ### 📦 My Orders Page
-![Orders](screenshots/orders.png)
+![Orders](./screenshots/orders.png)
 
 ---
 
