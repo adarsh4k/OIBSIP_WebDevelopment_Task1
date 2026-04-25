@@ -69,20 +69,19 @@ To build a full stack web application where users can customize and order pizzas
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login](./screenshots/login.png)
+![Login](./client/public/screenshots/login.png)
 
 ### 📝 Register Page
-![Register](./screenshots/register.png)
+![Register](./client/public/screenshots/register.png)
 
 ### 🍕 Dashboard (Pizza Builder)
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./client/public/screenshots/dashboard.png)
 
 ### 👨‍🍳 Admin Dashboard
-![Admin](./screenshots/admin.png)
+![Admin](./client/public/screenshots/admin.png)
 
 ### 📦 My Orders Page
-![Orders](./screenshots/orders.png)
-
+![Orders](./client/public/screenshots/orders.png)
 ---
 
 ## 🚀 How to Run Locally
