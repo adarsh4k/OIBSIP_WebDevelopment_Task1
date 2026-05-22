@@ -29,7 +29,7 @@ exports.register = async (req, res) => {
     );
 
     // 🔥 verification link (simulated email)
-    const link = `http://localhost:3000/verify/${token}`;
+    const link = `https://pizzaaapp.vercel.app/verify/${token}`;
 
     res.json({
       msg: "Registered successfully",
