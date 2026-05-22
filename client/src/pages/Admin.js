@@ -6,12 +6,12 @@ function Admin() {
   const [inventory, setInventory] = useState([]);
 
   const fetchOrders = async () => {
-    const res = await axios.get("http://localhost:5000/api/orders/all");
+    const res = await axios.get("https://pizzaappp.onrender.com/api/orders/all");
     setOrders(res.data);
   };
 
   const fetchInventory = async () => {
-    const res = await axios.get("http://localhost:5000/api/inventory");
+    const res = await axios.get("https://pizzaappp.onrender.com/api/inventory");
     setInventory(res.data);
   };
 
@@ -22,7 +22,7 @@ function Admin() {
 
   const updateStatus = async (id, status) => {
     await axios.put(
-      `http://localhost:5000/api/orders/update/${id}`,
+      `https://pizzaappp.onrender.com/api/orders/update/${id}`,
       { status }
     );
     fetchOrders();

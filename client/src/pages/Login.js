@@ -25,7 +25,7 @@ function Login() {
   const handleSubmit = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://pizzaappp.onrender.com/api/auth/login",
         form
       );
 
@@ -55,7 +55,7 @@ function Login() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/auth/forgot-password",
+        "https://pizzaappp.onrender.com/api/auth/forgot-password",
         { email }
       );
 

@@ -47,7 +47,7 @@ function Dashboard() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/orders/create",
+        "https://pizzaappp.onrender.com/api/orders/create",
         pizza,
         {
           headers: { Authorization: `Bearer ${token}` }
@@ -74,7 +74,7 @@ function Dashboard() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/payment/create",
+        "https://pizzaappp.onrender.com/api/payment/create",
         pizza
       );
 

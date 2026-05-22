@@ -12,7 +12,7 @@ function Verify() {
     const verify = async () => {
       try {
         await axios.get(
-          `http://localhost:5000/api/auth/verify/${token}`
+          `https://pizzaappp.onrender.com/api/auth/verify/${token}`
         );
 
         setStatus("success");

@@ -9,7 +9,7 @@ function MyOrders() {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/orders",
+        "https://pizzaappp.onrender.com/api/orders",
         { headers: { Authorization: token } }
       );
 
