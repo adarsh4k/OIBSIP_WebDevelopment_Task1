@@ -7,7 +7,7 @@ const authRoutes = require("./routes/authRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const Razorpay = require("razorpay");
 const Inventory = require("./models/Inventory");
-const inventoryRoutes = require("./routes/inventoryRoutes");
+const inventoryRoutes = require("./routes/InventoryRoutes");
 
 const app = express();
 
